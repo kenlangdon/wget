@@ -54,7 +54,7 @@ Profile: Habitat Core Plan wget (wget)
 Version: 0.1.0
 Target:  docker://68e96315fe27e284a5d59b82a09da2d99b88fb7975fdbaf72a2f0ce66f28a0fa
 
-  Bash command wget --spider -S "http://www.google.com" 2>&1 | grep "HTTP/"
+  Bash command wget --spider -S "http://www.google.com" 2>&1
      ✔  stdout should match /HTTP\/1.1 200 OK/
      ✔  stderr should eq ""
      ✔  exit_status should eq 0

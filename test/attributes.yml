@@ -1,2 +1,0 @@
-command_path: '/bin/wget'
-command_test: 'wget --spider -S "http://www.google.com" 2>&1 | grep "HTTP/" | awk \'{print $2}\''
